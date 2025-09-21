@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "csit:block/desk1"
+        },
+        "facing=east": {
+            "model": "csit:block/desk1",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "csit:block/desk1",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "csit:block/desk1",
+            "y": 270
+        }
+    }
+}
