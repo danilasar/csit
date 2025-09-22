@@ -1,18 +1,33 @@
 {
     "variants": {
-        "facing=north": {
-            "model": "csit:block/desk1"
+        "facing=north,part=foot": {
+            "model": "csit:block/desk1-foot"
         },
-        "facing=east": {
-            "model": "csit:block/desk1",
+        "facing=east,part=foot": {
+            "model": "csit:block/desk1-foot",
             "y": 90
         },
-        "facing=south": {
-            "model": "csit:block/desk1",
+        "facing=south,part=foot": {
+            "model": "csit:block/desk1-foot",
             "y": 180
         },
-        "facing=west": {
-            "model": "csit:block/desk1",
+        "facing=west,part=foot": {
+            "model": "csit:block/desk1-foot",
+            "y": 270
+        },
+        "facing=north,part=head": {
+            "model": "csit:block/desk1-head"
+        },
+        "facing=east,part=head": {
+            "model": "csit:block/desk1-head",
+            "y": 90
+        },
+        "facing=south,part=head": {
+            "model": "csit:block/desk1-head",
+            "y": 180
+        },
+        "facing=west,part=head": {
+            "model": "csit:block/desk1-head",
             "y": 270
         }
     }

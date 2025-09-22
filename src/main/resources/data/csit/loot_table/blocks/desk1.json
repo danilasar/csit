@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "csit:desk1"
+          "name": "csit:desk1",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "csit:desk1",
+              "properties": {
+                "part": "foot"
+              }
+            }
+          ]
         }
       ],
       "conditions": [
